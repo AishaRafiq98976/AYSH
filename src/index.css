@@ -1,0 +1,168 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@200&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Mulish", sans-serif;
+  font-weight: bold;
+}
+.navbar {
+  background-color: transparent;
+}
+.navbar .navbar-brand {
+  font-size: 1.3rem;
+  color: #6c63ff;
+}
+.navbar .navbar-brand:hover {
+  font-size: 1.3rem;
+  color: #6c63ff;
+}
+.navbar a {
+  font-size: 1rem;
+  text-transform: capitalize;
+}
+.navbar a:hover {
+  font-size: 1rem;
+  text-transform: capitalize;
+  color: #6c63ff;
+}
+.homeh {
+  padding-top: 4rem;
+}
+.homeb {
+  border-radius: 20px;
+  width: 8rem;
+  height: 2.8rem;
+  color: #6c63ff;
+  text-decoration: none;
+  border-color: #6c63ff;
+  background-color: transparent;
+}
+.homea {
+  border-radius: 10px;
+  width: 8rem;
+  height: 2.8rem;
+  color: #6c63ff;
+  text-decoration: none;
+  border-color: #6c63ff;
+  background-color: transparent;
+}
+.homea:hover {
+  border-radius: 20px;
+  width: 8rem;
+  height: 2.8rem;
+  color: white;
+  text-decoration: none;
+  border-color: #6c63ff;
+  background-color: #6c63ff;
+  transition: 0.5s;
+}
+.homeb:hover {
+  border-radius: 20px;
+  width: 8rem;
+  height: 2.8rem;
+  color: white;
+  text-decoration: none;
+  border-color: #6c63ff;
+  background-color: #6c63ff;
+  transition: 0.5s;
+}
+.homeBrand {
+  color: #6c63ff;
+}
+#header h1 {
+  font-weight: bold;
+}
+#header h5 {
+  color: #252525;
+}
+.os {
+  background-color: #6c63ff;
+  color: beige;
+  height: 3.5rem;
+}
+
+/*.......................Floating...............*/
+
+.floating {
+  -webkit-animation: movebounce 5s linear infinite;
+  animation: movebounce 5s linear infinite;
+}
+
+@-webkit-keyframes movebounce {
+  0% {
+    -webkit-transform: translateY(0px);
+    transform: translateY(0px);
+  }
+  50% {
+    -webkit-transform: translateY(20px);
+    transform: translateY(20px);
+  }
+  100% {
+    -webkit-transform: translateY(0px);
+    transform: translateY(0px);
+  }
+}
+
+@keyframes movebounce {
+  0% {
+    -webkit-transform: translateY(0px);
+    transform: translateY(0px);
+  }
+  50% {
+    -webkit-transform: translateY(20px);
+    transform: translateY(20px);
+  }
+  100% {
+    -webkit-transform: translateY(0px);
+    transform: translateY(0px);
+  }
+}
+
+/*.......................Floating...............*/
+
+/*.......................Cards...............*/
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
+  grid-gap: 20px;
+  align-items: start;
+}
+.grid > article {
+  border: 1px solid #ccc;
+  box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
+}
+.grid > article img {
+  max-width: 100%;
+}
+.text {
+  padding: 0 20px 20px;
+}
+.text > button {
+  background: gray;
+  border: 0;
+  color: white;
+  padding: 10px;
+  width: 100%;
+}
+/*.......................Cards...............*/
+/*.......................Section...............*/
+.hero{
+  background: rgb(247, 244, 244);
+  min-height: 100vh;
+  position: relative;
+  width: 100%;
+  color: #fff;
+}
+.section_heading{
+  font-weight: 500;
+  color: #6c63ff;
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 2rem;
+  padding-top: 13px;
+  padding-bottom: 10px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/*.......................Section...............*/
